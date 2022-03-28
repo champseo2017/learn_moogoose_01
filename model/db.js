@@ -26,11 +26,18 @@ process.on("SIGINT", () => {
 });
 
 
-// Field sizes
+// Data types allowed in schemas
 /* 
-MongoDB imposes a maximum document size of 16 MB.
 
-- around even this limit, using the MongoDB GridFS API.
+- Eight types (SchemaTypes)
+1. String
+2. Number
+3. Date
+4. Boolean
+5. Buffer
+6. ObjectId
+7. Mixed
+8. Array
 
 
 */
