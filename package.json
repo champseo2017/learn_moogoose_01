@@ -1,0 +1,22 @@
+{
+  "name": "moogoose01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/champseo2017/learn_mongoose_ebook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/champseo2017/learn_mongoose_ebook/issues"
+  },
+  "homepage": "https://github.com/champseo2017/learn_mongoose_ebook#readme",
+  "dependencies": {
+    "mongoose": "^6.2.8"
+  }
+}
