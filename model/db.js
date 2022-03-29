@@ -26,14 +26,11 @@ process.on("SIGINT", () => {
 });
 
 
-// Custom SchemaTypes
+// Where to write the schemas
 /*
 
-If your data requires a different datatype
-Mongoose offers the option of extending it with custom SchemaTypes. The extension 
-method is managed using Mongoose plugins
-long, double, RegEx, and even email.
-
+As your schemas sit on top of Mongoose, the only absolute is that they need to be 
+defined after Mongoose is required.
 
 
 
