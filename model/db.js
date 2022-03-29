@@ -26,13 +26,11 @@ process.on("SIGINT", () => {
 });
 
 
-// Where to write the schemas
+// Writing a schema
 /*
-
-As your schemas sit on top of Mongoose, the only absolute is that they need to be 
-defined after Mongoose is required.
-
-
-
+declare a variable to hold the schema
+for example, user or project and adding Schema to the end 
+of it.
+var userSchema = new mongoose.Schema({ });
 
 */
