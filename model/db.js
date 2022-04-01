@@ -33,4 +33,14 @@ for example, user or project and adding Schema to the end
 of it.
 var userSchema = new mongoose.Schema({ });
 
+Only allowing unique entries
+For example, if we want to ensure that there is only ever one user per e-mail address, 
+we can specify that the email field should be unique.
+
+email: {type: String, unique:true}
+
+MongoDB will check to see if 
+the e-mail value already exists in another document. If it finds it, MongoDB (not 
+Mongoose) will return an E11000 error.
+
 */
